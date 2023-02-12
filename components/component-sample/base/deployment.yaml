@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: component-sample
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/sample-image@sha256:9cf8a5a3d7cf6107b3c47868950a744cae48bbc5464627a6814921366fd6ec6d
+      - image: quay.io/redhat-appstudio/sample-image@sha256:1062188c90bac5a67c4a18e397c542d448b30e3f223165ff056c69a2245ffec5
         imagePullPolicy: Always
         name: container-image
         resources: {}
